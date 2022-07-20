@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Crossovers = () => {
   return (
@@ -18,6 +19,14 @@ export const Crossovers = () => {
                                 <h5 className="mb-0">Issues</h5>
                             </div>
                             <span>17 issues, maybe more. What do you want from me?</span>
+                            
+                        </div>
+                        <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="d-flex align-items-center mb-3">
+                                <Link className="btn btn-primary rounded-pill py-3 px-5" to="sagas">Read More</Link>
+                            </div>
+                    
+                            
                         </div>
 
                         {/* <div className="col-sm-6 wow fadeIn" data-wow-delay="0.2s">

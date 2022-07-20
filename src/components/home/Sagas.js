@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 export const Sagas = () => {
   return (
@@ -35,7 +37,7 @@ export const Sagas = () => {
                     <div className="position-relative mt-auto">
                         <img className="img-fluid" src="img/hackslashvolume1.jpg" alt=""/>
                         <div className="product-overlay">
-                            <a className="btn btn-lg-square btn-outline-light rounded-circle" href=""><i className="fa fa-eye text-primary"></i></a>
+                            <Link className="btn btn-lg-square btn-outline-light rounded-circle" to="sagas"><i className="fa fa-eye text-primary"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -50,7 +52,7 @@ export const Sagas = () => {
                     <div className="position-relative mt-auto">
                         <img className="img-fluid" src="img/hackslashsonofsamhain.jpg" alt=""/>
                         <div className="product-overlay">
-                            <a className="btn btn-lg-square btn-outline-light rounded-circle" href=""><i className="fa fa-eye text-primary"></i></a>
+                            <Link className="btn btn-lg-square btn-outline-light rounded-circle" to="sagas"><i className="fa fa-eye text-primary"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -65,7 +67,7 @@ export const Sagas = () => {
                     <div className="position-relative mt-auto">
                         <img className="img-fluid" src="img/hackslashresurrection.jpg" alt=""/>
                         <div className="product-overlay">
-                            <a className="btn btn-lg-square btn-outline-light rounded-circle" href=""><i className="fa fa-eye text-primary"></i></a>
+                            <Link className="btn btn-lg-square btn-outline-light rounded-circle" to="sagas"><i className="fa fa-eye text-primary"></i></Link>
                         </div>
                     </div>
                 </div>

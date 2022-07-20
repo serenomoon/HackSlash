@@ -1,9 +1,7 @@
 import React from 'react';
-import { NavBar } from '../ui/NavBar';
 import { About } from './About';
 import { Carousel } from './Carousel';
 import { Crossovers } from './Crossovers';
-import { Facts } from './Facts';
 import { Footer } from './Footer';
 import { Sagas } from './Sagas';
 import { Team } from './Team';
@@ -18,9 +16,6 @@ export const Home = () => {
     {/* <!-- Spinner End --> */}
 
 
-
-    <NavBar />
-
     <Carousel />
   
     {/* <Facts /> */}
@@ -32,14 +27,6 @@ export const Home = () => {
     <Crossovers />
 
     <Team />
-   
-    <Footer />
-
-
-    {/* <!-- Back to Top --> */}
-    <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i className="bi bi-arrow-up"></i></a>
-
-
     
     </div>
   )
