@@ -41,6 +41,7 @@ export const Comic = () => {
             </Box>
 
             <Carousel
+                swipeable={false}
                 centerMode={true}
                 centerSlidePercentage={value}
                 className="wow fadeIn"
