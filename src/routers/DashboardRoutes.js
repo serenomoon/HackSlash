@@ -4,6 +4,7 @@ import { Characters } from "../components/characters/Characters";
 import { Contact } from "../components/contact/Contact";
 import { Footer } from "../components/home/Footer";
 import { Home } from "../components/home/Home";
+import { ReadComic } from "../components/sagas/comic/ReadComic";
 import { SagasPerVol } from "../components/sagas/SagasPerVol";
 import { NavBar } from "../components/ui/NavBar";
 
@@ -18,6 +19,8 @@ export const DashboardRoutes = () => {
          <Route path="/" element={<Home />} />
 
          <Route path="sagas" element={<SagasPerVol />} />
+
+         <Route path="issue" element={<ReadComic />} />
 
          <Route path="contact" element={<Contact />} />
 

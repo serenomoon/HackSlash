@@ -16,6 +16,8 @@ export const SagasPerVol = () => {
 
         <SagasComicsList />
 
+        <Footer />
+
     </>
   )
 }

@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "../components/helpers/ScrollToTop";
+import ScrollToTop from "../helpers/ScrollToTop";
 import { AuthRouter } from "./AuthRouter";
 import { DashboardRoutes } from "./DashboardRoutes";
 import { DataRoutes } from "./DataRoutes";
