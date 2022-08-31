@@ -20,7 +20,9 @@ export const DashboardRoutes = () => {
 
          <Route path="sagas" element={<SagasPerVol />} />
 
-         <Route path="issue" element={<ReadComic />} />
+         {/* <Route path="issue" element={<ReadComic />} /> */}
+
+         <Route path="issue/:id" element={<ReadComic />} />
 
          <Route path="contact" element={<Contact />} />
 

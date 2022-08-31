@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <Link to="index.html" className="navbar-brand ms-4 ms-lg-0">
+        <Link to="/" className="navbar-brand ms-4 ms-lg-0">
             <h1 className="text-primary m-0">Hack <img src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/D62121/external-knife-kitchen-utensils-solidglyph-m-oki-orlando.png"/> Slash</h1>
         </Link>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
